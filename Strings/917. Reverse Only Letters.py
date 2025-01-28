@@ -1,4 +1,4 @@
-# Reverse Only Letters
+# Reverse Only Letters - two pointer
 class Solution:
     def reverseOnlyLetters(self, s: str) -> str:
         i = 0
