@@ -15,10 +15,8 @@ class Solution:
                     minSum = nums[i]+nums[i+1]
                     minIndices[0] = i
                     minIndices[1] = i+1
-            #print('^^^', minIndices, nums[minIndices[0]], nums[minIndices[1]])
             nums[minIndices[0]] = nums[minIndices[0]] + nums[minIndices[1]]
             nums.pop(minIndices[1])
             c += 1
-            #print(nums, c)
         return c
                 
