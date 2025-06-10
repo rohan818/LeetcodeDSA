@@ -1,4 +1,4 @@
-#
+# code 1394
 class Solution:
     def findLucky(self, arr: List[int]) -> int:
         d = {}
