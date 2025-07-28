@@ -1,3 +1,4 @@
+#
 def shortestDistance(self, wordsDict: List[str], word1: str, word2: str) -> int:
         w1 = w2  = -1
         d = n = len(wordsDict)
