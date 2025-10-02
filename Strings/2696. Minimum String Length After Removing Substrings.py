@@ -15,8 +15,5 @@ def minLength(self, s: str) -> int:
             f=0
         else:
             break
-        #print('s_incr=',s)
         
-    
-    #print('s=',s)
     return len(s)
