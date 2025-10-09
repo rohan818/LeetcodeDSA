@@ -6,6 +6,7 @@ def shortestToChar(self, s: str, c: str) -> List[int]:
     for i in range(len(s)):
         if s[i] == c:
             occurance_of_c.append(i)
+    #print(occurance_of_c)
     
     for i in range(len(s)):
         check=[]
